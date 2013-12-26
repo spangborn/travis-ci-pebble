@@ -2,7 +2,7 @@
 echo 'Installing Pebble SDK Dependencies...'
 
 # Get the Pebble SDK and toolchain
-wget https://developer.getpebble.com/2/download/${PEBBLE_SDK}.tar.gz PebbleSDK.tar.gz
+wget https://developer.getpebble.com/2/download/${PEBBLE_SDK}.tar.gz -O PebbleSDK.tar.gz
 wget http://assets.getpebble.com.s3-website-us-east-1.amazonaws.com/sdk/arm-cs-tools-ubuntu-universal.tar.gz
 
 # Build the Pebble directory
